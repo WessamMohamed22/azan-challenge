@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 03</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body style="direction:rtl;">
+    <div>
+        <div style="margin-top: 30px;">
+            <div style="color: white; margin-right: 40px;">
+                <h1 id="city-name">القاهره</h1>
+                <h6 style="font-size: 40px; font-weight: 200;" id="date">الجمعه ٢٢ مايو</h6>
+            </div>
+            <hr style="margin: 0 50px; border-color: rgb(180, 153, 204);">
+
+            <div>
+                <div class="card">
+                    <div class="header">
+                        <h1>الفجر <i class="las la-cloud-moon icon"></i></h1>
+                    </div>
+                    <div class="body">
+                        <h1 class="time" id="fajr-time">
+                            5:30
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="header">
+                        <h1>الشروق<i class="las la-sun icon"></i></h1>
+                    </div>
+                    <div class="body">
+                        <h1 class="time" id="sunrise-time">
+                            5:30
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="header">
+                        <h1>الظهر <i class="las la-sun icon"></i></h1>
+                    </div>
+                    <div class="body">
+                        <h1 class="time" id="duhr-time">
+                            5:30
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="header">
+                        <h1>العصر <i class="las la-sun icon"></i></h1>
+                    </div>
+                    <div class="body">
+                        <h1 class="time" id="asr-time">
+                            5:30
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="header">
+                        <h1>المغرب <i class="las la-moon icon"></i></h1>
+                    </div>
+                    <div class="body">
+                        <h1 class="time" id="sunset-time">
+                            5:30
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="header">
+                        <h1>العشاء <i class="las la-moon icon"></i></h1>
+                    </div>
+                    <div class="body">
+                        <h1 class="time" id="isha-time">
+                            5:30
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center">
+                <select name="" id="cities-select"
+                    style="width: 300px; height: 35px; font-size: 25px; font-family: Tajawal; background: none; color: rgb(138, 102, 140); padding: 5px; border-radius: 20px;">
+
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</html>
